@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio · Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">MY<span>PAGE</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-toggle"></div>
+    </nav>
+
+    <main class="page-wrapper">
+      <section class="hero">
+        <div class="blob hero-blob1"></div>
+        <div class="blob hero-blob2"></div>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>
+              <span
+                class="highlight typewriter"
+                >조윤서</span
+              >
+              <br />
+              포트폴리오 페이지
+            </h1>
+            <p>조윤서의 포트폴리오 페이지에 오신 것을 환영합니다!</p>
+            <div class="hero-actions">
+              <a href="profile.html" class="btn btn-primary">프로필 보기 →</a>
+              <a href="contact.html" class="btn btn-secondary">Contact</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="profile-frame">
+              <div class="profile-ring"></div>
+              <div class="profile-ring2"></div>
+              <div class="profile-circle">
+                <img src="pig.png" alt="profile" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="pill-label">EXPLORE</div>
+        <h2 class="section-title">Explore My Work</h2>
+        <p class="section-subtitle">다양한 프로젝트와 포트폴리오를 확인해보세요.</p>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+          "
+          data-stagger
+        >
+          </a>
+          <a
+            href="portfolio.html"
+            class="card fade-in"
+            style="display: flex; flex-direction: column; gap: 12px"
+          >
+            <div style="font-size: 2rem">Portfolio</div>
+            <p style="font-size: 0.88rem; color: var(--text-mid)">
+              정보보안 관련 프로젝트와 학습 내용을 공유하는 포트폴리오입니다.
+            </p>
+            <span
+              style="
+                font-size: 0.82rem;
+                color: var(--pink-accent);
+                font-weight: 600;
+                margin-top: auto;
+              "
+              >바로가기 →</span
+            >
+          </a>
+          <a
+            href="blog.html"
+            class="card fade-in"
+            style="display: flex; flex-direction: column; gap: 12px"
+          >
+            <div style="font-size: 2rem">Blog</div>
+            <p style="font-size: 0.88rem; color: var(--text-mid)">
+              수업 내용 등 정보보안 관련 주제로 운영하는 블로그입니다.
+            </p>
+            <span
+              style="
+                font-size: 0.82rem;
+                color: var(--pink-accent);
+                font-weight: 600;
+                margin-top: auto;
+              "
+              >바로가기 →</span
+            >
+          </a>
+          <a
+            href="contact.html"
+            class="card fade-in"
+            style="display: flex; flex-direction: column; gap: 12px"
+          >
+            <div style="font-size: 2rem">Contact</div>
+            <p style="font-size: 0.88rem; color: var(--text-mid)">
+              연락처 정보를 확인하세요.
+            </p>
+            <span
+              style="
+                font-size: 0.82rem;
+                color: var(--pink-accent);
+                font-weight: 600;
+                margin-top: auto;
+              "
+              >바로가기 →</span
+            >
+          </a>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="team-inner">
+          <div class="pill-label">TEAM</div>
+          <h2 class="section-title fade-in">Web-Pedia (웹피디아)</h2>
+          <p class="section-subtitle fade-in">
+            웹 프로그래밍 수업에서 함께 프로젝트를 진행한 팀입니다.
+          </p>
+
+          <div class="teammates-row">
+            <div class="team-card leader fade-in">
+              <span class="team-role-badge">Leader</span>
+              <h3>함유진</h3>
+              <p class="team-desc">
+                기획 및 디자인, OWASP 퀴즈 제작
+              </p> <br>
+              <div class="team-links">
+                <a
+                  href="https://github.com/chael2"
+                  target="_blank"
+                  class="team-link github"
+                  >GitHub</a
+                >
+                <a
+                  href="https://blog.naver.com/chael2"
+                  target="_blank"
+                  class="team-link blog"
+                  >Blog</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="teammates-row" data-stagger>
+            <div class="team-card member fade-in">
+              <span class="team-role-badge">Member</span>
+              <h3>남유진</h3>
+              <p class="team-desc">
+                페이지 디자인 및 CSS, HTML 퀴즈 제작
+              </p> <br>
+              <div class="team-links">
+                <a
+                  href="https://github.com/yoojin33"
+                  target="_blank"
+                  class="team-link github"
+                  >GitHub</a
+                >
+                <a
+                  href="https://blog.naver.com/quarter0330"
+                  target="_blank"
+                  class="team-link blog"
+                  >Blog</a
+                >
+              </div>
+            </div>
+            <div class="team-card member fade-in">
+              <span class="team-role-badge">Member</span>
+              <h3>조윤서</h3>
+              <p class="team-desc">
+                JS 문법 조사 및 해킹 기법 퀴즈 제작
+              </p> <br>
+              <div class="team-links">
+                <a
+                  href="https://github.com/avac2613"
+                  target="_blank"
+                  class="team-link github"
+                  >GitHub</a
+                >
+                <a
+                  href="https://blog.naver.com/avac-ode2613"
+                  target="_blank"
+                  class="team-link blog"
+                  >Blog</a
+                >
+              </div>
+            </div>
+            <div class="team-card member fade-in">
+              <span class="team-role-badge">Member</span>
+              <h3>홍영우</h3>
+              <p class="team-desc">
+                퀴즈 페이지 및 시큐어코딩 퀴즈 제작
+              </p> <br>
+              <div class="team-links">
+                <a
+                  href="https://github.com/hongwoo0516-commits"
+                  target="_blank"
+                  class="team-link github"
+                  >GitHub</a
+                >
+                <a
+                  href="https://blog.naver.com/youngwoo0405"
+                  target="_blank"
+                  class="team-link blog"
+                  >Blog</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made by Yoonseo Cho</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

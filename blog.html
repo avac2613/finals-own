@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio · Blog</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">MY<span>PAGE</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-toggle"><span></span><span></span><span></span></div>
+    </nav>
+
+    <main class="page-wrapper">
+      <section class="blog-hero">
+        <div
+          class="blob"
+          style="
+            width: 320px;
+            height: 320px;
+            background: var(--yellow-mid);
+            top: -80px;
+            right: -40px;
+          "
+        ></div>
+        <div class="blog-hero-inner">
+          <div>
+            <div class="pill-label">BLOG</div>
+            <h1>내 네이버 블로그</h1>
+            <p>수업 내용 등 정보보안 관련 주제로 운영하는 블로그입니다.</p>
+          </div>
+          <a
+            href="https://blog.naver.com/avac-ode2613"
+            target="_blank"
+            class="btn btn-primary"
+            style="white-space: nowrap; flex-shrink: 0"
+          >
+            블로그 바로가기
+          </a>
+        </div>
+      </section>
+
+      <div class="blog-content">
+        <h2 class="blog-posts-title">Latest Posts</h2>
+
+        <div class="blog-posts-grid" data-stagger>
+          <div class="blog-post-card fade-in">
+            <div class="blog-post-thumb">
+              📚
+              <span class="post-num">POST 01</span>
+            </div>
+            <div class="blog-post-body">
+              <p class="blog-post-date">2026. 05. 27.</p>
+              <h3>리눅스 필기본 정리</h3>
+              <a
+                href="https://blog.naver.com/avac-ode2613"
+                target="_blank"
+                class="blog-post-link"
+                >블로그 바로가기</a
+              >
+            </div>
+          </div>
+
+          <div class="blog-post-card fade-in">
+            <div
+              class="blog-post-thumb"
+              style="
+                background: linear-gradient(
+                  135deg,
+                  var(--yellow-light),
+                  var(--pink-light)
+                );
+              "
+            >
+              📚
+              <span class="post-num">POST 02</span>
+            </div>
+            <div class="blog-post-body">
+              <p class="blog-post-date">2026. 05. 28.</p>
+              <h3>개인 홈페이지 제작 - 포트폴리오</h3>
+              <a
+                href="https://blog.naver.com/avac-ode2613"
+                target="_blank"
+                class="blog-post-link"
+                >블로그 바로가기</a
+              >
+            </div>
+          </div>
+
+          <div class="blog-post-card fade-in">
+            <div
+              class="blog-post-thumb"
+              style="
+                background: linear-gradient(135deg, #fff0eb, var(--pink-light));
+              "
+            >
+              📚
+              <span class="post-num">POST 03</span>
+            </div>
+            <div class="blog-post-body">
+              <p class="blog-post-date">2026. 05. 29.</p>
+              <h3>개인 홈페이지 제작 - Home</h3>
+              <a
+                href="https://blog.naver.com/avac-ode2613"
+                target="_blank"
+                class="blog-post-link"
+                >블로그 바로가기</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Made by Yoonseo Cho</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
