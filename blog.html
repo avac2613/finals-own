@@ -9,7 +9,12 @@
   </head>
   <body>
     <nav class="navbar">
-      <div class="nav-logo">MY<span>PAGE</span></div>
+      <div class="nav-left">
+        <div class="nav-logo">MY<span>PAGE</span></div>
+        <button class="dark-toggle" id="darkToggle" title="다크모드 전환">
+          🌙
+        </button>
+      </div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="profile.html">Profile</a></li>
@@ -100,7 +105,11 @@
             <div
               class="blog-post-thumb"
               style="
-                background: linear-gradient(135deg, #fff0eb, var(--pink-light));
+                background: linear-gradient(
+                  135deg,
+                  var(--peach-light),
+                  var(--pink-light)
+                );
               "
             >
               📚
