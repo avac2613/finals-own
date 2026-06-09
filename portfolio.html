@@ -60,214 +60,252 @@
           </ul>
         </div>
 
-        <!-- 프로젝트 -->
+        <!-- PROJECT 01: 시간표 -->
         <div class="portfolio-section-card full-width fade-in">
-          <h2>프로젝트</h2>
-          <div
-            style="
-              display: grid;
-              grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-              gap: 16px;
-              margin-top: 8px;
-            "
-          >
-            <div
-              style="
-                padding: 20px;
-                background: var(--pink-light);
-                border-radius: var(--radius-sm);
-              "
-            >
-              <p
-                style="
-                  font-size: 0.72rem;
-                  font-weight: 600;
-                  color: var(--pink-accent);
-                  letter-spacing: 1px;
-                  text-transform: uppercase;
-                  margin-bottom: 8px;
-                "
-              >
-                PROJECT 01
-              </p>
-              <h4 style="margin-bottom: 8px; font-size: 1rem">
-                웹 보안 교육 플랫폼
-              </h4>
-              <p style="color: var(--text-mid); font-size: 0.88rem">
-                <strong>HTML/CSS/JS + Python</strong>으로 제작한 인터랙티브 학습 사이트 <br> <strong>XSS, SQL Injection</strong> 공격 원리 시연 및 OWASP 방어 방법 구현
-              </p>
+          <p style="font-size: 0.72rem; font-weight: 600; color: var(--pink-accent); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">PROJECT 01</p>
+          <h2 style="margin-bottom: 6px;">그리드로 시간표 만들기</h2>
+          <p style="color: var(--text-mid); font-size: 0.88rem; margin-bottom: 20px;"><strong>CSS Grid</strong>를 활용해 행과 열로 구성된 시간표 레이아웃 제작</p>
+          <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 0.88rem; text-align: center;">
+              <thead>
+                <tr>
+                  <th style="padding: 10px 8px; background: var(--pink-accent); color: white; border: 1px solid var(--pink-mid); width: 48px;">시간</th>
+                  <th style="padding: 10px 8px; background: var(--pink-accent); color: white; border: 1px solid var(--pink-mid);">월</th>
+                  <th style="padding: 10px 8px; background: var(--pink-accent); color: white; border: 1px solid var(--pink-mid);">화</th>
+                  <th style="padding: 10px 8px; background: var(--pink-accent); color: white; border: 1px solid var(--pink-mid);">수</th>
+                  <th style="padding: 10px 8px; background: var(--pink-accent); color: white; border: 1px solid var(--pink-mid);">목</th>
+                  <th style="padding: 10px 8px; background: var(--pink-accent); color: white; border: 1px solid var(--pink-mid);">금</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); color: var(--text-soft); font-size: 0.8rem;">1</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--pink-light); font-weight: 600;" rowspan="2">웹프로그래밍</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--yellow-light); font-weight: 600;" rowspan="2">서버구축및운영실습</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--peach-light); font-weight: 600;" rowspan="4">네트워크보안</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); color: var(--text-soft); font-size: 0.8rem;">2</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); color: var(--text-soft); font-size: 0.8rem;">3</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--yellow-light); font-weight: 600;" rowspan="2">ELCM</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--peach-light); font-weight: 600;" rowspan="2">한국수화언어</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--pink-light); font-weight: 600;" rowspan="2">EGC III</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); color: var(--text-soft); font-size: 0.8rem;">4</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); color: var(--text-soft); font-size: 0.8rem;">5</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); color: var(--text-soft); font-size: 0.8rem;">6</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--pink-light); font-weight: 600;" rowspan="2">웹프로그래밍</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); background: var(--yellow-light); font-weight: 600;" rowspan="2">서버구축및운영실습</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid); color: var(--text-soft); font-size: 0.8rem;">7</td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                  <td style="padding: 8px; border: 1px solid var(--pink-mid);"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- PROJECT 02: 카페 메뉴판 -->
+        <div class="portfolio-section-card fade-in">
+          <p style="font-size: 0.72rem; font-weight: 600; color: #c9a000; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">PROJECT 02</p>
+          <h2 style="margin-bottom: 6px;">카페 메뉴판 만들기</h2>
+          <p style="color: var(--text-mid); font-size: 0.88rem; margin-bottom: 16px;"><strong>HTML/CSS</strong>로 카페 메뉴판 페이지 디자인</p>
+          <div style="background: #fdf6ee; border-radius: var(--radius-sm); padding: 20px; font-family: Georgia, serif; border: 1px solid #e8d5b0;">
+            <div style="margin-bottom: 14px;">
+              <p style="font-weight: 700; font-size: 0.95rem; color: #5c3d1e; margin-bottom: 6px;">Coffee</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- black coffee</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- Cafe Latte</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- Espresso</p>
             </div>
-            <div
-              style="
-                padding: 20px;
-                background: var(--yellow-light);
-                border-radius: var(--radius-sm);
-              "
-            >
-              <p
-                style="
-                  font-size: 0.72rem;
-                  font-weight: 600;
-                  color: #c9a000;
-                  letter-spacing: 1px;
-                  text-transform: uppercase;
-                  margin-bottom: 8px;
-                "
-              >
-                PROJECT 02
-              </p>
-              <h4 style="margin-bottom: 8px; font-size: 1rem">
-                네트워크 트래픽 분석 도구
-              </h4>
-              <p style="color: var(--text-mid); font-size: 0.88rem">
-                <strong>Python + Wireshark + HTML</strong> 패킷 분석 실습 <br> <strong>TCP/IP 3-way handshake</strong>과 <strong>HTTP/HTTPS</strong> 트래픽 분석
-              </p>
+            <div style="margin-bottom: 14px;">
+              <p style="font-weight: 700; font-size: 0.95rem; color: #5c3d1e; margin-bottom: 6px;">Tea</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- Hibiscus</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- Green Tea</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- Iced Tea</p>
             </div>
-            <div
-              style="
-                padding: 20px;
-                background: var(--peach-light);
-                border-radius: var(--radius-sm);
-              "
-            >
-              <p
-                style="
-                  font-size: 0.72rem;
-                  font-weight: 600;
-                  color: #ff7043;
-                  letter-spacing: 1px;
-                  text-transform: uppercase;
-                  margin-bottom: 8px;
-                "
-              >
-                PROJECT 03
-              </p>
-              <h4 style="margin-bottom: 8px; font-size: 1rem">
-                패스워드 보안 점검기
-              </h4>
-              <p style="color: var(--text-mid); font-size: 0.88rem">
-                <strong>HTML/CSS/JS + Python Flask</strong> 비밀번호 보안 평가 <br> <strong>엔트로피</strong> 계산, <strong>정규식</strong> 검증, <strong>OWASP ASVS</strong> 기준 적용
-              </p>
+            <div>
+              <p style="font-weight: 700; font-size: 0.95rem; color: #5c3d1e; margin-bottom: 6px;">Milk</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- Hot</p>
+              <p style="color: #7a5c3a; font-size: 0.85rem; padding-left: 12px;">- Cold</p>
             </div>
           </div>
         </div>
 
-        <!-- 학습 여정 -->
+        <!-- PROJECT 03: 로그인 -->
+        <div class="portfolio-section-card fade-in">
+          <p style="font-size: 0.72rem; font-weight: 600; color: #ff7043; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">PROJECT 03</p>
+          <h2 style="margin-bottom: 6px;">JS로 로그인 기능 만들기</h2>
+          <p style="color: var(--text-mid); font-size: 0.88rem; margin-bottom: 16px;"><strong>JavaScript</strong>로 아이디·비밀번호 입력값 검증 구현</p>
+          <div style="background: #f8f8f8; border-radius: var(--radius-sm); padding: 16px; border: 1px solid #ddd; font-size: 0.82rem;">
+            <fieldset style="border: 1px solid #aaa; padding: 12px 16px; margin-bottom: 12px; border-radius: 4px;">
+              <legend style="padding: 0 6px; font-size: 0.82rem;">로그인</legend>
+              <div style="margin-bottom: 8px;">
+                <label style="color: #333;">아이디(6자 이상)</label>
+                <input id="demo-id" type="text" placeholder="아이디 입력" style="margin-left: 6px; padding: 3px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem; width: 130px;">
+              </div>
+              <div style="margin-bottom: 10px;">
+                <label style="color: #333;">비밀번호</label>
+                <input id="demo-pw" type="password" placeholder="비밀번호 입력" style="margin-left: 6px; padding: 3px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem; width: 110px;">
+              </div>
+              <button onclick="
+                const id = document.getElementById('demo-id').value;
+                const pw = document.getElementById('demo-pw').value;
+                const msg = document.getElementById('demo-login-msg');
+                if (id.length < 6) { msg.textContent = '❌ 아이디는 6자 이상이어야 합니다.'; msg.style.color='#e53935'; }
+                else if (pw.length === 0) { msg.textContent = '❌ 비밀번호를 입력해주세요.'; msg.style.color='#e53935'; }
+                else { msg.textContent = '✅ 로그인 성공! 안녕하세요, ' + id + '님!'; msg.style.color='#43a047'; }
+              " style="padding: 4px 12px; border: 1px solid #aaa; background: #eee; border-radius: 3px; font-size: 0.82rem; cursor: pointer;">로그인</button>
+              <p id="demo-login-msg" style="margin-top: 8px; font-size: 0.82rem;"></p>
+            </fieldset>
+            <fieldset style="border: 1px solid #aaa; padding: 12px 16px; border-radius: 4px;">
+              <legend style="padding: 0 6px; font-size: 0.82rem;">배송 정보</legend>
+              <div style="margin-bottom: 6px;"><label style="color: #333; display: inline-block; width: 50px;">Search:</label><input type="text" style="padding: 3px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem; width: 120px;"></div>
+              <div style="margin-bottom: 6px;"><label style="color: #333; display: inline-block; width: 50px;">URL:</label><input type="text" style="padding: 3px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem; width: 120px;"></div>
+              <div><label style="color: #333; display: inline-block; width: 50px;">Email:</label><input type="email" style="padding: 3px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem; width: 120px;"></div>
+            </fieldset>
+          </div>
+        </div>
+
+        <!-- PROJECT 04+05: 입력 폼 & 볼륨 -->
         <div class="portfolio-section-card full-width fade-in">
-          <h2>학습 여정</h2>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              gap: 0;
-              margin-top: 8px;
-            "
-          >
-            <div
-              style="
-                padding-bottom: 28px;
-                border-left: 2px solid var(--pink-mid);
-                margin-left: 10px;
-                padding-left: 24px;
-                position: relative;
-              "
-            >
-              <div
-                style="
-                  position: absolute;
-                  left: -9px;
-                  top: 0;
-                  width: 16px;
-                  height: 16px;
-                  border-radius: 50%;
-                  background: var(--pink-accent);
-                  border: 3px solid white;
-                "
-              ></div>
-              <p
-                style="
-                  font-size: 0.78rem;
-                  color: var(--text-soft);
-                  margin-bottom: 4px;
-                "
-              >
-                JAN · 2027
-              </p>
-              <h4 style="margin-bottom: 6px; font-size: 1rem">
-                웹 보안 기초(XSS/SQLi) 학습 - 교육 사이트 구현
-              </h4>
-              <p style="color: var(--text-mid); font-size: 0.9rem">
-                웹 보안의 핵심 개념인 XSS와 SQL Injection 공격 원리를 학습하고, 이를 시연하는 인터랙티브 교육 사이트를 제작하였습니다. OWASP Top 10 취약점 중 하나인 XSS와 SQLi의 공격 방식과 방어 방법을 이해하는 데 중점을 두었습니다.
-              </p>
+          <p style="font-size: 0.72rem; font-weight: 600; color: var(--pink-accent); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">PROJECT 04 · 05</p>
+          <h2 style="margin-bottom: 6px;">입력 폼 & 볼륨 기능 만들기</h2>
+          <p style="color: var(--text-mid); font-size: 0.88rem; margin-bottom: 16px;"><strong>HTML input type</strong> 다양한 활용 + <strong>range 슬라이더</strong>로 볼륨 구현</p>
+          <div style="background: #f8f8f8; border-radius: var(--radius-sm); padding: 20px; border: 1px solid #ddd; font-size: 0.85rem; color: #222;">
+            <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 16px; color: #111;">Input Type</h3>
+            <div style="margin-bottom: 10px;">
+              <button onclick="alert('Click Me! 버튼을 눌렀습니다 🎉')" style="padding: 3px 10px; border: 1px solid #aaa; background: #eee; border-radius: 3px; margin-right: 6px; font-size: 0.82rem; cursor: pointer;">Click Me!</button>
+              <button onclick="alert('Click Me!!! 버튼을 눌렀습니다 🎊')" style="padding: 3px 10px; border: 1px solid #aaa; background: #eee; border-radius: 3px; font-size: 0.82rem; cursor: pointer;">Click Me!!!</button>
             </div>
-            <div
-              style="
-                padding-bottom: 28px;
-                border-left: 2px solid var(--pink-mid);
-                margin-left: 10px;
-                padding-left: 24px;
-                position: relative;
-              "
-            >
-              <div
-                style="
-                  position: absolute;
-                  left: -9px;
-                  top: 0;
-                  width: 16px;
-                  height: 16px;
-                  border-radius: 50%;
-                  background: var(--yellow-mid);
-                  border: 3px solid white;
-                "
-              ></div>
-              <p
-                style="
-                  font-size: 0.78rem;
-                  color: var(--text-soft);
-                  margin-bottom: 4px;
-                "
-              >
-                FEB · 2027
-              </p>
-              <h4 style="margin-bottom: 6px; font-size: 1rem">
-                네트워크 프로토콜(TCP/IP) - Wireshark 패킷 분석
-              </h4>
-              <p style="color: var(--text-mid); font-size: 0.9rem">
-                TCP/IP 프로토콜의 작동 원리를 학습하고, Wireshark를 사용하여 실제 패킷을 분석하였습니다. 네트워크 통신에서 발생할 수 있는 보안 위협을 이해하고, 이를 방지하기 위한 기본적인 기술을 익혔습니다.
-              </p>
+            <div style="margin-bottom: 8px;"><label>Select your favorite color: </label><input type="color" value="#000000" style="width: 36px; height: 24px; border: 1px solid #aaa; vertical-align: middle; cursor: pointer;"></div>
+            <div style="margin-bottom: 8px;"><label>Birthday: </label><input type="date" style="padding: 2px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem;"></div>
+            <div style="margin-bottom: 8px;"><label>Birthmonth(Month and year): </label><input type="month" style="padding: 2px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem;"></div>
+            <div style="margin-bottom: 8px;"><label>Email: </label><input type="email" placeholder="example@email.com" style="padding: 2px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem; width: 180px;"></div>
+            <div style="margin-bottom: 8px;"><label>File: </label><input type="file" style="font-size: 0.82rem;"></div>
+            <div style="margin-bottom: 8px;"><label>Quantity(between 1 and 5): </label><input type="number" min="1" max="5" value="1" style="padding: 2px 6px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.82rem; width: 60px;"></div>
+            <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+              <label>Volume(between 0 and 50)</label>
+              <input id="demo-volume" type="range" min="0" max="50" value="25" oninput="document.getElementById('demo-vol-val').textContent = this.value" style="accent-color: var(--pink-accent); width: 140px;">
+              <span id="demo-vol-val" style="font-weight: 600; color: var(--pink-accent); min-width: 24px;">25</span>
             </div>
-            <div
-              style="margin-left: 10px; padding-left: 24px; position: relative"
-            >
-              <div
-                style="
-                  position: absolute;
-                  left: -9px;
-                  top: 0;
-                  width: 16px;
-                  height: 16px;
-                  border-radius: 50%;
-                  background: var(--pink-mid);
-                  border: 3px solid white;
-                "
-              ></div>
-              <p
-                style="
-                  font-size: 0.78rem;
-                  color: var(--text-soft);
-                  margin-bottom: 4px;
-                "
-              >
-                MAR · 2027
-              </p>
-              <h4 style="margin-bottom: 6px; font-size: 1rem">
-                리눅스 기초 - 로그 분석 자동화 스크립트
-              </h4>
-              <p style="color: var(--text-mid); font-size: 0.9rem">
-                리눅스의 기본 명령어와 쉘 스크립트 작성법을 학습하고, 시스템 로그 파일을 자동으로 분석하는 스크립트를 제작하였습니다. 반복적인 로그 검토 작업을 자동화함으로써 효율적인 시스템 관리 방법을 익혔습니다.
-              </p>
+            <button onclick="document.getElementById('demo-submit-msg').textContent = '✅ 제출 완료!'; document.getElementById('demo-submit-msg').style.color='#43a047';" style="padding: 4px 14px; border: 1px solid #aaa; background: #eee; border-radius: 3px; font-size: 0.82rem; cursor: pointer;">Submit</button>
+            <span id="demo-submit-msg" style="margin-left: 10px; font-size: 0.82rem;"></span>
+          </div>
+        </div>
+
+        <!-- 미래 계획 -->
+        <div class="portfolio-section-card full-width fade-in">
+          <h2>미래 계획</h2>
+          <div style="display: flex; flex-direction: column; gap: 0; margin-top: 8px;">
+            <div style="padding-bottom: 28px; border-left: 2px solid var(--pink-mid); margin-left: 10px; padding-left: 24px; position: relative;">
+              <div style="position: absolute; left: -9px; top: 0; width: 16px; height: 16px; border-radius: 50%; background: var(--pink-accent); border: 3px solid white;"></div>
+              <p style="font-size: 0.78rem; color: var(--text-soft); margin-bottom: 4px;">JAN · 2027</p>
+              <h4 style="margin-bottom: 6px; font-size: 1rem;">웹 보안 기초(XSS/SQLi) 학습 - 교육 사이트 구현</h4>
+              <p style="color: var(--text-mid); font-size: 0.9rem;">웹 보안의 핵심 개념인 XSS와 SQL Injection 공격 원리를 학습하고, 이를 시연하는 인터랙티브 교육 사이트를 제작할 계획입니다. OWASP Top 10 취약점 중 하나인 XSS와 SQLi의 공격 방식과 방어 방법을 이해하는 데 중점을 둘 예정입니다.</p>
             </div>
+            <div style="padding-bottom: 28px; border-left: 2px solid var(--pink-mid); margin-left: 10px; padding-left: 24px; position: relative;">
+              <div style="position: absolute; left: -9px; top: 0; width: 16px; height: 16px; border-radius: 50%; background: var(--yellow-mid); border: 3px solid white;"></div>
+              <p style="font-size: 0.78rem; color: var(--text-soft); margin-bottom: 4px;">FEB · 2027</p>
+              <h4 style="margin-bottom: 6px; font-size: 1rem;">네트워크 프로토콜(TCP/IP) - Wireshark 패킷 분석</h4>
+              <p style="color: var(--text-mid); font-size: 0.9rem;">TCP/IP 프로토콜의 작동 원리를 학습하고, Wireshark를 사용하여 실제 패킷을 분석할 계획입니다. 네트워크 통신에서 발생할 수 있는 보안 위협을 이해하고, 이를 방지하기 위한 기본적인 기술을 익힐 예정입니다.</p>
+            </div>
+            <div style="margin-left: 10px; padding-left: 24px; position: relative;">
+              <div style="position: absolute; left: -9px; top: 0; width: 16px; height: 16px; border-radius: 50%; background: var(--pink-mid); border: 3px solid white;"></div>
+              <p style="font-size: 0.78rem; color: var(--text-soft); margin-bottom: 4px;">MAR · 2027</p>
+              <h4 style="margin-bottom: 6px; font-size: 1rem;">리눅스 기초 - 로그 분석 자동화 스크립트</h4>
+              <p style="color: var(--text-mid); font-size: 0.9rem;">리눅스의 기본 명령어와 쉘 스크립트 작성법을 학습하고, 시스템 로그 파일을 자동으로 분석하는 스크립트를 제작할 계획입니다. 반복적인 로그 검토 작업을 자동화함으로써 효율적인 시스템 관리 방법을 익힐 예정입니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 팀 활동 섹션 -->
+      <div class="portfolio-grid" style="padding-top: 0;">
+        <div class="portfolio-section-card full-width fade-in">
+          <h2>팀 활동 · Web-Pedia</h2>
+          <p style="color: var(--text-mid); margin-bottom: 28px;">
+            웹 프로그래밍 수업에서 팀원들과 함께 제작한 웹 백과사전 프로젝트입니다.
+            중간고사와 기말고사 두 차례에 걸쳐 기능을 확장해나갔습니다.
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+            <!-- 중간고사 -->
+            <div style="border-radius: var(--radius-sm); overflow: hidden; border: 1.5px solid rgba(255,182,200,0.3); box-shadow: var(--shadow); transition: var(--t);"
+              onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--shadow-hover)'"
+              onmouseout="this.style.transform=''; this.style.boxShadow=''">
+              <!-- iframe 미리보기 -->
+              <div style="position: relative; width: 100%; height: 200px; overflow: hidden; background: var(--pink-light);">
+                <iframe
+                  src="https://midterm2-phi.vercel.app/"
+                  style="width: 200%; height: 200%; transform: scale(0.5); transform-origin: top left; border: none; pointer-events: none;"
+                  loading="lazy"
+                  scrolling="no"
+                  title="Web-Pedia 중간고사 미리보기"
+                ></iframe>
+                <!-- 클릭 오버레이 -->
+                <a href="https://midterm2-phi.vercel.app/" target="_blank"
+                  style="position: absolute; inset: 0; display: flex; align-items: flex-end; justify-content: flex-end; padding: 10px; background: transparent; text-decoration: none;">
+                  <span style="background: rgba(255,133,161,0.9); color: white; font-size: 0.75rem; font-weight: 600; padding: 4px 12px; border-radius: 99px;">열기 ↗</span>
+                </a>
+              </div>
+              <div style="padding: 16px; background: var(--white);">
+                <span style="font-size: 0.72rem; font-weight: 600; color: var(--pink-accent); letter-spacing: 1px; text-transform: uppercase;">MIDTERM</span>
+                <h4 style="margin: 4px 0 6px;">Web-Pedia 중간고사</h4>
+                <p style="font-size: 0.82rem; color: var(--text-mid);">HTML/CSS 문법, OWASP, XSS·SQLi 해킹 원리, 시큐어 코딩 정리</p>
+              </div>
+            </div>
+
+            <!-- 기말고사 -->
+            <div style="border-radius: var(--radius-sm); overflow: hidden; border: 1.5px solid rgba(255,182,200,0.3); box-shadow: var(--shadow); transition: var(--t);"
+              onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--shadow-hover)'"
+              onmouseout="this.style.transform=''; this.style.boxShadow=''">
+              <!-- iframe 미리보기 -->
+              <div style="position: relative; width: 100%; height: 200px; overflow: hidden; background: var(--yellow-light);">
+                <iframe
+                  src="https://finals-team.vercel.app/"
+                  style="width: 200%; height: 200%; transform: scale(0.5); transform-origin: top left; border: none; pointer-events: none;"
+                  loading="lazy"
+                  scrolling="no"
+                  title="Web-Pedia 기말고사 미리보기"
+                ></iframe>
+                <!-- 클릭 오버레이 -->
+                <a href="https://finals-team.vercel.app/" target="_blank"
+                  style="position: absolute; inset: 0; display: flex; align-items: flex-end; justify-content: flex-end; padding: 10px; background: transparent; text-decoration: none;">
+                  <span style="background: rgba(255,133,161,0.9); color: white; font-size: 0.75rem; font-weight: 600; padding: 4px 12px; border-radius: 99px;">열기 ↗</span>
+                </a>
+              </div>
+              <div style="padding: 16px; background: var(--white);">
+                <span style="font-size: 0.72rem; font-weight: 600; color: #c9a000; letter-spacing: 1px; text-transform: uppercase;">FINAL</span>
+                <h4 style="margin: 4px 0 6px;">Web-Pedia 기말고사</h4>
+                <p style="font-size: 0.82rem; color: var(--text-mid);">퀴즈·오답노트·즐겨찾기·로그인 기능 추가, JS 인터랙티브 학습</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
